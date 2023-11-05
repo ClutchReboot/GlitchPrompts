@@ -5,7 +5,7 @@ from setuptools import setup
 
 setup(
     name="GlitchPrompts",
-    version="0.0.1",
+    version="0.0.2",
     description="Used as a quick way to add color and prompts to automation.",
     keywords="GlitchPrompts prompts color text",
     author="Clutch_Reboot",
