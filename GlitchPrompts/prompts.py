@@ -3,10 +3,12 @@ from colorama import Fore, Style
 
 prompt_types = ["info", "debug", "warn", "success", "fail"]
 
+
 class GlitchPrompts:
     """
     Create object that houses all the prompts and their colors.
     """
+
     def __init__(self, **kwargs):
         info_prompt: str = kwargs.get("info_prompt", "[i]")
         debug_prompt: str = kwargs.get("debug_prompt", "[d]")
