@@ -13,9 +13,14 @@ Basic usage of this module.
 ```python
 from GlitchPrompts import glitch_print
 
+glitch_print("Info.")
+glitch_print("Debug.", prompt="debug")
+glitch_print("Warn.", prompt="warn")
 glitch_print("Success!", prompt='success')
+glitch_print("Failure!", prompt='fail')
+
 ```
 
 Expected Output:
 
-![Success](images/success.png)
+![Success](images/example.png)
